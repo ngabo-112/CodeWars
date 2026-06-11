@@ -1,6 +1,14 @@
-function toCamelCase(str) {
-    return str
-        .replace(/[-_]/g, " ")
-        .split(" ").map((x, i) => i === 0 ? x : x.charAt(0).toUpperCase() + x.slice(1)).join("");
 
-}
+
+
+const orders = [
+    { customer: "Ali", product: "Laptop" },
+    { customer: "Sara", product: "Mouse" },
+    { customer: "Ali", product: "Laptop" },
+    { customer: "John", product: "Keyboard" },
+    { customer: "Sara", product: "Mouse" },
+    { customer: "Ali", product: "Monitor" }
+];a
+
+
+const products =  [new Set (...orders.map(el=>el.product))]
