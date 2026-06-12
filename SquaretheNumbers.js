@@ -1,10 +1,7 @@
 function squaretheNumber(...x){
     let result=0;
-  for(let i of x){
-    result+=i*x.length;
-  }
-  return result;
-  
+ return x.map(t=>t*x.length).reduce((acc,val)=>acc+val,0);
+
 
 }
-console.log(squaretheNumber(1,2,3));
+console.log(squaretheNumber(123));
