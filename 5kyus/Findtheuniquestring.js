@@ -15,4 +15,4 @@ let value=newarr.reduce((acc,val)=>{
 }
 console.log(findUniq(["Aa", "aaa", "aaaaa", "BbBb", "Aaaa", "AaAaAa", "a"]));
  console.log(findUniq([ 'Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a' ]));// BbBb
- console.log(findUniq(["    ", "a", " "]));
+ console.log(findUniq([ '    ', 'a', ' ' ]))
